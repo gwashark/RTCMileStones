@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTC Milestones Generator</title>
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <h1>RTC Milestones Generator</h1>
+        <hr>
+        <form>
+            <input type="text" id="username" placeholder="X/Twitter @username" required autocomplete="off">
+            <div class="alert" hidden id="invuserval">Please Enter a username!</div>
+            <input type="number" id="followers" placeholder="# of Follower Goal Achieved" required min="100" max="9999999" value="100" autocomplete="off">
+            <div class="alert" hidden id="invfollowval">Please Enter a valid value between 100 and 9999999.</div>
+            <br>
+            <input type="checkbox" id="watermarked" name="watermarked" value="true">
+            <label for="watermarked">Add Watermark</label>
+            <br>
+            <button type='button' id="genbtn">Generate</button>
+        </form>
+        <a href="https://twitter.com/intent/tweet?screen_name=sharkybitevr&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-text="Congratulations (user) for (amount) followers!" data-show-count="false">Found a bug?</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="results">
+        <img src="/generate/placeholder" alt="Start Generating on the controls to get an output!" title="Start Generating on the Controls to get an output!" id="imageresult">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

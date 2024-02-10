@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "canvas": "2.10.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  },
+  "name": "rtcmilestones",
+  "version": "1.0.0",
+  "description": "Create Milestones!",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gwa Shark",
+  "license": "ISC"
+}

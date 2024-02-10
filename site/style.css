@@ -1,0 +1,105 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(108, 238, 238);
+    text-align: center;
+}
+
+.controls {
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.results {
+    margin-left: 35%;
+    width: 65%;
+    height: 100%;
+    position: relative;
+}
+
+hr {
+    border-width:0;
+    color: white;
+    background-color: white;
+    height:2px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type="text"], input[type="url"], input[type="number"], input[type="email"], input[type="password"], inpuy[type="time"], input[type="date"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="search"], input[type="tel"], textarea, select {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: #65dde6;
+    color: white;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 11px;
+    border: #a1f9ff solid;
+    outline: none;
+    transition: 0.3s;
+    width: 75%;
+}
+
+button {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 500;
+    width: fit-content;
+    padding: 9px 16px;
+    border-radius: 11px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    background-color: #65dde6;
+    border: #a1f9ff solid;
+    color: white;
+}
+
+::placeholder {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.781);
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+form * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+input:disabled {
+    cursor: not-allowed;
+}
+
+img {
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.alert {
+    background-color: cyan;
+    color: white;
+    padding: 5px;
+}
